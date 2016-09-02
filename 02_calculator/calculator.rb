@@ -18,3 +18,7 @@ end
 def power(a,b)
   a**b
 end
+
+def factorial(x)
+  x != 0 ? x = x.downto(1).inject(:*) : x = 1
+end
